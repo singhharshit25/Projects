@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OCR Image to Text</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>📄 Image to Text Converter</h2>
+
+        <div class="upload-section">
+            <input type="file" id="imageUpload" accept="image/*">
+            <button onclick="extractText()">Extract Text</button>
+        </div>
+
+        <div class="preview">
+            <img id="previewImage" src="" alt="Uploaded Image" style="display: none;">
+        </div>
+
+        <div class="output">
+            <h3>Extracted Text:</h3>
+            <p id="outputText"></p>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tesseract.js/4.0.2/tesseract.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
