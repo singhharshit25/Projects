@@ -1,8 +1,8 @@
-# Tic-Tac-Toe (Simple Project in Java)
+# Tic-Tac-Toe (Project in Java)
 
 ## Description
 
-This is a simple implementation of the classic Tic-Tac-Toe game in **Java**. The game is designed for two players, where each player takes turns marking X and O on a 3x3 grid. The objective is to get three of your symbols in a row, column, or diagonal. The game will detect the winner or announce a draw at the end of the game.
+This is an implementation of the classic Tic-Tac-Toe game in **Java**. The game is designed for two players, where each player takes turns marking X and O on a 3x3 grid. The objective is to get three of your symbols in a row, column, or diagonal. The game will detect the winner or announce a draw at the end of the game.
 
 ## Features
 
